@@ -1,0 +1,236 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/stick"
+    },
+    "cases": [
+      {
+        "when": "plushie/axe/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/axe/default"
+        }
+      },
+      {
+        "when": "plushie/axe/evil",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/axe/evil"
+        }
+      },
+      {
+        "when": "plushie/dande/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/dande/default"
+        }
+      },
+      {
+        "when": "plushie/gerrit/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/gerrit/default"
+        }
+      },
+      {
+        "when": "plushie/lluis/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/lluis/default"
+        }
+      },
+      {
+        "when": "plushie/lluis/evil",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/lluis/evil"
+        }
+      },
+      {
+        "when": "plushie/manatee/legacy",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/manatee/legacy"
+        }
+      },
+      {
+        "when": "plushie/manatee/evil",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/manatee/evil"
+        }
+      },
+      {
+        "when": "plushie/ondra/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/ondra/default"
+        }
+      },
+      {
+        "when": "plushie/ondra/evil",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/ondra/evil"
+        }
+      },
+      {
+        "when": "plushie/pai/legacy",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/pai/legacy"
+        }
+      },
+      {
+        "when": "plushie/pai/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/pai/default"
+        }
+      },
+      {
+        "when": "plushie/pai/roleplay",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/pai/roleplay"
+        }
+      },
+      {
+        "when": "plushie/pai/evil",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/pai/evil"
+        }
+      },
+      {
+        "when": "plushie/rono/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/rono/default"
+        }
+      },
+      {
+        "when": "plushie/rono/evil",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/rono/evil"
+        }
+      },
+      {
+        "when": "plushie/stanzey/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/stanzey/default"
+        }
+      },
+      {
+        "when": "plushie/axo/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/axo/default"
+        }
+      },
+      {
+        "when": "plushie/jasper/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/jasper/default"
+        }
+      },
+      {
+        "when": "plushie/noukoum/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/noukoum/default"
+        }
+      },
+      {
+        "when": "plushie/manatee/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/manatee/default"
+        }
+      },
+      {
+        "when": "plushie/alan/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/alan/default"
+        }
+      },
+      {
+        "when": "plushie/cyan/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/cyan/default"
+        }
+      },
+      {
+        "when": "plushie/blob/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/blob/default"
+        }
+      },
+      {
+        "when": "plushie/blob/evil",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/blob/evil"
+        }
+      },
+      {
+        "when": "plushie/vik/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/vik/default"
+        }
+      },
+      {
+        "when": "plushie/summer/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/summer/default"
+        }
+      },
+      {
+        "when": "plushie/sineri/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/sineri/default"
+        }
+      },
+      {
+        "when": "plushie/alex/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/alex/default"
+        }
+      },
+      {
+        "when": "plushie/fabi/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/fabi/default"
+        }
+      },
+      {
+        "when": "plushie/vi/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/vi/default"
+        }
+      },
+      {
+        "when": "plushie/david/default",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/david/default"
+        }
+      }
+    ]
+  }
+}

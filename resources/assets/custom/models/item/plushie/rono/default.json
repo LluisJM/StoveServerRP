@@ -1,0 +1,3 @@
+{
+	"parent": "custom:item/plushie", "textures": { "layer0": "custom:item/plushie/rono/default" }
+}

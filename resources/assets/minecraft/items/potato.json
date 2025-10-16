@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/potato"
+    },
+    "cases": [
+      {
+        "when": "edible/dementia_pills",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/edible/dementia_pills"
+        }
+      }
+    ]
+  }
+}

@@ -29,6 +29,20 @@
         }
       },
       {
+        "when": "plushie/dande/evil",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/dande/evil"
+        }
+      },
+      {
+        "when": "plushie/dande/legacy",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/dande/legacy"
+        }
+      },
+      {
         "when": "plushie/gerrit/default",
         "model": {
           "type": "minecraft:model",

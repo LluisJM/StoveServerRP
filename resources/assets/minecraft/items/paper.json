@@ -225,6 +225,13 @@
         }
       },
       {
+        "when": "plushie/alex/evil",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/plushie/alex/evil"
+        }
+      },
+      {
         "when": "plushie/fabi/default",
         "model": {
           "type": "minecraft:model",

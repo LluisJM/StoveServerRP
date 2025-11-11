@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/cooked_beef"
+    },
+    "cases": [
+      {
+        "when": "edible/cheesburger",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/edible/cheeseburger"
+        }
+      }
+    ]
+  }
+}

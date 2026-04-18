@@ -1,0 +1,14 @@
+output: build
+
+resource_pack:
+  pack_format: 64
+  min_format: 15
+  max_format: 64
+  load:
+    - src
+  description: §7The Stove SMP official RP
+  name: resources
+  zipped: true
+
+pipeline:
+  - build

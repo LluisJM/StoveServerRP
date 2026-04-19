@@ -27,17 +27,23 @@ def create_child_model(rp: ResourcePack, parent: str, path: str) -> str:
     debug(__name__, f"created item model {path}")
     return path
 
-def give_custom_models(rp: ResourcePack, model: str, vanilla: Vanilla, models: list[str]):
-    overrides: JsonDict = []
-    if models.__len__() <= 0:
-        raise ValueError("model list is empty")
+def give_custom_models(rp: ResourcePack, model: str, vanilla: Vanilla, models: list[str] | dict[str, int]):
 
-    for i in range(models.__len__()):
+    if not models:
+        raise ValueError("model list/dict is empty")
+    
+    if isinstance(models, list):
+        models = dict(zip(models, range(1, models.__len__() + 1)))
+        debug(__name__, models)
+
+    overrides: JsonDict = []
+
+    for model_key in models:
         override = {
             "predicate": {
-                "custom_model_data": i + 1
+                "custom_model_data": models[model_key]
             },
-            "model": models[i]
+            "model": model_key
         }
         overrides.append(override)
     

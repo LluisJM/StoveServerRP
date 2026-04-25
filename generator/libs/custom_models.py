@@ -34,7 +34,6 @@ def give_custom_models(rp: ResourcePack, model: str, vanilla: Vanilla, models: l
     
     if isinstance(models, list):
         models = dict(zip(models, range(1, models.__len__() + 1)))
-        debug(__name__, models)
 
     overrides: JsonDict = []
 

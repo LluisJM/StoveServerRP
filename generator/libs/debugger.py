@@ -30,4 +30,4 @@ def debug(module: str, msg: str, highlight: bool = False):
         color2 = "\033[34m\033[1m"
     print(f"\033[90m{get_time()}\033[0m \t{color1}[{module}]\033[0m {color2}{msg}\033[0m")
 
-debug(__name__, "Started debugging.")
+debug(__name__, "started debugging")

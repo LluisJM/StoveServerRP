@@ -1,5 +1,20 @@
 output: build
 
+meta:
+  bolt:
+    ensure_ascii: false
+
+require:
+  - bolt
+
+data_pack:
+  pack_format: 48
+  min_format: 48
+  max_format: 48
+  description: §7The Stove SMP official RP Utils DP
+  name: resource-utils
+  zipped: false
+
 resource_pack:
   pack_format: 64
   min_format: 15
@@ -8,7 +23,8 @@ resource_pack:
     - src
   description: §7The Stove SMP official RP
   name: resources
-  zipped: true
+  zipped: false
 
 pipeline:
   - build
+  - mecha
